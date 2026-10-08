@@ -11,9 +11,14 @@ class Main {
     2) number of people that live with you
     3) number of items in a cart 
 */
-  
- 
- 
+
+    int age = 16;
+    int people = 4;
+    int items = 3;
+    
+    System.out.println(age);
+    System.out.println(people);
+    System.out.println(items);
 
 
 /*  
@@ -24,8 +29,13 @@ class Main {
     3) growth rate of your investment
 */
 
-
-
+    double temp= 72.5;
+    double gpa = 3.5;
+    double rate = 5.2;
+    
+    System.out.println(temp);
+    System.out.println(gpa);
+    System.out.println(rate);
 
 /*  
     Challenge 3:
@@ -35,6 +45,13 @@ class Main {
     3) description of an item 
 */
 
+    String lastName = "Smith";
+    char firstInit = 'J';
+    String itemDes = "Blue backpack";
+    
+    System.out.println(lastName);
+    System.out.println(firstInit);
+    System.out.println(itemDes);
 
 
 
@@ -47,6 +64,13 @@ class Main {
 */
 
 
+    boolean lightsOn = true;
+    boolean gameOver = false;
+    boolean batteryCharging = true;
+    
+    System.out.println(lightsOn);
+    System.out.println(gameOver);
+    System.out.println(batteryCharging);
 
 
 
