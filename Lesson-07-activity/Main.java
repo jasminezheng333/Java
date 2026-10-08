@@ -10,12 +10,21 @@ class Main {
     1) Create the variables, ask the user for the variable values, write the equation in file EQ1-act6 and display the equation value.
 */
   
+    System.out.println("Enter a value");
+    double x= Input.readInt();
+    y = Math.pow(x,7);
+    System.out.println(y);
+
 
 /*  
     Challenge 2:
     1) Create the variables, ask the user for the variable values, write the equation in fileEQ1.1-act6 and display the equation value.
 */
   
+    System.out.println("Enter a value");
+    double z= Input.readInt();
+    q = Math.pow(z,3) + 5;
+    System.out.println(q);
 
 /*  
     Challenge 3:
@@ -23,7 +32,13 @@ class Main {
     
 */
 
- 
+    System.out.println("Enter a value for t");
+    double t= Input.readInt();
+    System.out.println("Enter another value for r");
+    double r= Input.readInt();
+    s = Math.pow(t,5)*Math.pow(r+2,4);
+    System.out.println(s);
+
 
 /*  
     Challenge 4:
@@ -31,7 +46,12 @@ class Main {
     
 */
 
-
+    System.out.println("Enter a value for a");
+    double a= Input.readInt();
+    System.out.println("Enter another value for b");
+    double b= Input.readInt();
+    c = Math.sqrt(a+b);
+    System.out.println(c);
 
 /*  
     Challenge 5:
@@ -39,8 +59,7 @@ class Main {
     
 */
 
-
-
+    
 
 /*  
     Challenge 6:
